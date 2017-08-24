@@ -2,7 +2,11 @@
 lock "3.9.0"
 
 set :application, "final-nandiwalesamaj"
+<<<<<<< HEAD
 set :repo_url, "git@github.com:Nandiwalesamahj/final-nandiwalesamaj.git"
+=======
+set :repo_url, "git@github.com:Nandiwalesamah/final-nandiwalesamaj.git"
+>>>>>>> 6ebf9dbd2c8eaa870d784d05ffb02a44d039b9f5
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
