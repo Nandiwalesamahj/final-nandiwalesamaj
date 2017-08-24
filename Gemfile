@@ -33,6 +33,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Capistrano for deployment
+
 # gem 'capistrano-rails', group: :development
 gem 'devise', '~> 4.3'
 gem 'jquery-fileupload-rails', '~> 0.4.7'
@@ -60,6 +61,9 @@ end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
+  gem 'capistrano', '~> 3.9'
+gem 'capistrano-rails', '~> 1.3'
+gem 'capistrano-rbenv', '~> 2.1', '>= 2.1.1'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
